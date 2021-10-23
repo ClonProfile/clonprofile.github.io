@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clon Profile</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  </head>
+  <body>
+    <img src="logo.png" alt="logo.png">
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="news.html">News</a>
+      <a href="users.html">User List</a>
+      <a href="https://docs.google.com/forms/d/1cgXgLIWvGQBKCjxmyjQ6bTr3_Ef0e2jieeMlJDvux90">Create Profile</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div style="padding-left:16px">
+      <h1>Welcome to Clon Profile</h1>
+      <p>I haven't finished this site yet. Feel free to reserve a profile though!</p>
+      <h1>Home</h1>
+      <p>Clon Profile will provide players with a profile that displays a brief rundown of them.</p>
+      <p>Features:</p>
+      <ul>
+        <li>Best FC Display</li>
+        <li>FC Count</li>
+        <li>Player Level (Based on GHAndrew's spreadsheet)</li>
+        <li>Social Media Links</li>
+        <li>And much more!</li>
+      </ul>
+      <h2>Recent News:</h2>
+      <p>No news yet...</p>
+      <h3>Recent Users:</h2>
+	  <p>24/10/2021 - <a href="users/prophet.html">prophet</a></p>
+      <p>23/10/2021 - <a href="users/Redo.html">Redo</a></p>
+      <p>23/10/2021 - <a href="users/Template_User.html">Template_User</a></p>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html> 

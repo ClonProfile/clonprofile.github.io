@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clon Profile</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  </head>
+  <body>
+    <img src="logo.png" alt="logo.png">
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="news.html" class="active">News</a>
+      <a href="users.html">User List</a>
+      <a href="https://docs.google.com/forms/d/1cgXgLIWvGQBKCjxmyjQ6bTr3_Ef0e2jieeMlJDvux90">Create Profile</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div style="padding-left:16px">
+      <h1>News</h1>
+      <p>No news yet...</p>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html> 
